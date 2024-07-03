@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+table {
+    table-layout:fixed;
+    border-collapse: collapse;
+}
+
+.date-row th {
+    /* font-family: 'EB+Garamond'; */
+    background-color: #14866d;
+    color: azure;
+    font-size: 1.2em;
+    padding: 20px;
+    /* text-align: center; */
+    /* border-bottom: 2px solid azure; */
+    /* border-top: 2px solid azure; */
+}
+  
+  .column-headers th {
+    /* background-color: #e6f7ff; */
+    /* font-family: 'EB+Garamond'; */
+    /* font-size: 1.1em; */
+    background-color: #ddf1ee;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+
+.dates{
+    margin-top: 30px;
+    margin-left: 15px;
+    /* gap: 125px; */
+}
+.dates button{
+    border-radius: 10px;
+    width: 220px;
+    padding: 10px 15px;
+    color: #14866d;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.dates button:hover{
+    border-color: #7c7c7c; 
+}
+.dates button:active{
+    background-color: #14866d;
+    color: white;
+}
+table{
+    color: #14866d;
+}

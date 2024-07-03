@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.my_navbar{
+    font-family: 'EB+Garamond';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #14866d;
+}
+.title{
+    color: azure;
+}
+
+.navbar-options {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+  
+.navbar-options .nav-button {
+    text-decoration: none;
+}
+
+.navbar-options button {
+    padding: 10px 20px; 
+    border: none;
+    background-color: white; 
+    color: #14866d;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.navbar-options button:hover,
+.navbar-options .active-link button {
+    background-color: #c4d0cd;
+    color: #318270;
+}
+
+  
+.cluster-buttons{
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+.cluster-buttons button{
+    padding: 10px 20px; 
+    border: none;
+    background-color: white; 
+    color:#14866d;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cluster-buttons button:hover{
+    background-color: #c4d0cd;
+} 
+.button-na99.active, .button-emea99.active{
+    background-color: #c4d0cd;
+    color: #1c5f50;
+}
+

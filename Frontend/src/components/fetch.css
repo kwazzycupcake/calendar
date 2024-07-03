@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  /* font-family: 'EB+Garamond'; */
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 1300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+.filter-form label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter-form input[type="date"] {
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.filter-form button {
+  padding: 10px 20px;
+  background-color: #14866d;
+  color: white;
+  border: 1.5px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.filter-form button:hover {
+  /* opacity: 0.7; */
+  border-color: #b1b1b1; 
+} 
+
+.timezone-buttons {
+  display: flex;
+  gap: 15px;
+  margin-right: 40px;
+}
+
+.timezone-buttons button{
+  border-radius: 10px;
+  width: 100px;
+  padding: 7px 15px;
+  color: #14866d;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.timezone-buttons button.active {
+  background-color: #14866d;
+  /* background-color: #212529; */
+  color: white;
+}
+
+.timezone-heading{
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 100px; */
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+table {
+
+  /* height: 200px;
+  width: 600px; */
+  table-layout:fixed;
+  border-collapse: collapse;
+
+}
+
+
+thead th {
+  font-size: large;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+tbody td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  white-space: normal; 
+  max-width: 200px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="date"] {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+/* Pagination Css */
+
+.pagination-buttons {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 20px;
+  gap: 6px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.pagination-buttons button {
+  padding: 6px 12px;
+  margin: 0 5px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.pagination-buttons button:hover {
+  background-color: #e0e0e0;
+  border-color: #bbb;
+}
+.pagination-buttons button.active {
+  background-color: #14866d;
+  color: white;
+}
+.pagination-buttons button:disabled {
+  background-color: #ddd;
+  color: black;
+  cursor: not-allowed;
+}
+
+
+.error {
+  color: red;
+}
+
+.dropDown{
+  display:flex;
+}
+.dropDown label{
+  color: black;
+  font-weight: bold;
+  display: flex;
+  gap: 9px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.dropDown select {
+  border-radius: 10px;
+  padding: 5px 12px;
+  color: #14866d;
+  background-color: white;
+  border: 1px solid #ddd;
+  width: auto;
+}
+
+
